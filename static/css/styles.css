@@ -1,0 +1,55 @@
+body {
+	background-color: #e4e7ec;
+}
+.header {
+	height: 100vh;
+}
+.intro {
+	height: 40vh;
+	background-image: url('https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* height: 40vh;
+    padding:0;
+    margin:0; */
+
+/* background-image:url("https://giphy.com/embed/doXBzUFJRxpaUbuaqz");
+    background-size:cover;
+} */
+i {
+	font-size: xx-large;
+	color: blueviolet;
+}
+
+.info {
+	box-shadow: blueviolet;
+}
+.aboutMe {
+	height: 100vh;
+}
+.about {
+	background-color: white;
+	padding: 2%;
+}
+.skills {
+	margin-top: 5%;
+}
+.myskills {
+	display: flex;
+	justify-content: center;
+}
+.hard {
+	background-color: white;
+	padding: 2%;
+	/* margin-left:2%; */
+}
+.soft {
+	background-color: white;
+	padding:2%;
+	margin-left:2%;
+}
+progress{
+    width:90%
+}

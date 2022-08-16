@@ -1,0 +1,106 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin William Malomba</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script src="https://kit.fontawesome.com/eabeecdfdf.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <!-- {% include 'navbar.html'%} -->
+        <div class="intro">
+
+
+
+        </div>
+
+        <div class="profpic container" align="center">
+            <img src="https://wallpapercave.com/wp/wp3324202.jpg"
+                style="height:33vmin;width:19%;border-radius: 50%;margin-top:-9%"><br><br>
+
+            <h3>Kevin Malomba</h3>
+            <p>Full-Stack Developer and Biochemist</p>
+            <div class="icons">
+                <span><i class="fa-brands fa-square-github" style="color:black"></i></span> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span><i class="fa-brands fa-linkedin"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;               
+                <span><i class="fa-brands fa-youtube" style="color:red;"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span><i class="fa-brands fa-square-twitter"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- <span><i class="fa-solid fa-mobile" style="color:black;"></i></span> -->
+            </div><br>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="container aboutMe" >
+            <div class="about">
+
+
+                <h5 id="intro">Hello World. I'm Kevin Malomba</h5>
+                <p>Professional development in a job environment to offer opportunities to undertake duties which
+                    improve my intellect and proficiency in software development. To work hard with full commitment for
+                    attainment of organizational objectives and set targets.
+                </p>
+                <div class="buttons" align="center">
+                    <a href="/static/documents/Kevin William Malomba CV.docx.pdf" class="btn btn-primary bg-light " download
+                    style="color:blue; font-size: medium;"> Download CV</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=" " class="btn btn-primary " style="color:white; font-size: medium;"> Contact Me</a>
+                </div>
+                
+
+
+
+
+            </div>
+
+            <div class="skills" >
+                <div class="row myskills">
+                    <h3 align="center">Skills</h3><br>
+                    <div class="col-md-5 hard">
+                        <h5 align="center">Professional</h5>
+                        <span>HTML</span><br>
+                        <progress id="file" value="90" max="100"> 90% </progress><br>
+                        <span>CSS</span><br>
+                        <progress id="file" value="75" max="100"> 75% </progress>
+                        <span>JavaScript</span><br>
+                        <progress id="file" value="60" max="100"> 60% </progress>
+                        <span>Angular</span><br>
+                        <progress id="file" value="70" max="100"> 72% </progress>
+                        <span>Python-Django</span><br>
+                        <progress id="file" value="70" max="100"> 70% </progress>
+                    </div>
+                    <div class="col-md-5 soft">
+                        <h5 align="center">Personal</h5>
+                        <span>Communication</span><br>
+                        <progress id="file" value="95" max="100"> 95% </progress><br>
+                        <span>Teamwork</span><br>
+                        <progress id="file" value="95" max="100"> 95% </progress>
+                        <span>Leadership</span><br>
+                        <progress id="file" value="95" max="100"> 95% </progress>
+                    </div>
+                </div>
+            </div>
+
+
+
+        
+
+
+
+
+        </section>
+    </main>
+</body>
+
+</html>
