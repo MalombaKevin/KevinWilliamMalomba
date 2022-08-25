@@ -1,11 +1,11 @@
 body {
-	background-color: #e4e7ec;
+	background-color: rgb(228, 231, 236);
 }
 .header {
 	height: 100vh;
 }
 .intro {
-	height: 40vh;
+	height: 50vh;
 	background-image: url('https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -26,9 +26,9 @@ i {
 .info {
 	box-shadow: blueviolet;
 }
-.aboutMe {
-	height: 100vh;
-}
+/* .aboutMe {
+	/* height: 100vh; */
+
 .about {
 	background-color: white;
 	padding: 2%;
@@ -53,3 +53,6 @@ i {
 progress{
     width:90%
 }
+
+
+
