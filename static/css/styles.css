@@ -18,13 +18,19 @@ body {
 /* background-image:url("https://giphy.com/embed/doXBzUFJRxpaUbuaqz");
     background-size:cover;
 } */
-i {
+i{
 	font-size: xx-large;
 	color: blueviolet;
 }
 
 .info {
 	box-shadow: blueviolet;
+}
+#pic{
+	height:33vmin;
+	width:19%;
+	border-radius: 50%;
+	margin-top:-15%"
 }
 /* .aboutMe {
 	/* height: 100vh; */
@@ -34,7 +40,7 @@ i {
 	padding: 2%;
 }
 .skills {
-	margin-top: 5%;
+	margin-top:2%;
 }
 .myskills {
 	display: flex;
@@ -54,5 +60,49 @@ progress{
     width:90%
 }
 
+.con{
+	background-color: white;
+	margin-left:2%;
+}
+form{
+	text-align: center;
+	margin-top:2%;
+}
+input{
+	border:none;
+	border-bottom: 1px solid;
+	font-size:medium;
 
+}
 
+::placeholder{
+	font-style: italic;
+
+}
+.tech{
+	border:1px solid;
+	padding-right: 1%;
+	padding-left:1%;
+}
+
+.des{
+	border: 1px dotted;
+	border-radius: 3rem;
+	background-color: blueviolet;
+	color:white;
+	padding-left: 3%;
+	padding-right: 3%;
+
+}
+@media only screen and (max-width: 1200px) {
+	.header {
+		height: 55vh;
+	}
+	.intro {
+		height: 20vh;
+		background-image: url('https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+  }
+  
