@@ -4,6 +4,7 @@ body {
 .header {
 	height: 100vh;
 }
+
 .intro {
 	height: 50vh;
 	background-image: url('https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif');
@@ -94,7 +95,12 @@ input{
 	padding-right: 3%;
 
 }
-@media only screen and (max-width: 1200px) {
+.dark-mode{
+	background-color: yellow;
+	 color:white; 
+}
+
+@media only screen and (max-width: 1300px) {
 	.header {
 		height: 55vh;
 	}
@@ -104,5 +110,25 @@ input{
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+	#pic{
+		height: 33vmin;
+		width:30%;
+		border-radius: 50%;
+		margin-top: -14%;	
+	}
+	
   }
-  
+@media screen  and (min-width:1366px){
+	
+	#pic{
+		height:300px;
+		width:50vmin;
+		border-radius:50%;
+		margin-top:-15%;
+		/* background-color:yellow; */
+
+
+	}
+	/* height:33vmin;width:30%;border-radius: 50%;margin-top:-14% */
+	
+}
