@@ -22,10 +22,26 @@
 
 <body>
     <!-- {% include 'navbar.html'%} -->
+   
     <header class="header">
        
         
-        <div class="intro">
+        <div class="intro" id="malomba">
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                
+        <!-- <span class="profpic container">
+            <img src="/static/images/ProfilePicture.jpg"  class="sidepic"> -->
+                <a href="#malomba">Hello World</a>
+                <a href="#hello">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#edu">Education</a>
+                <a href="#expe">Experience</a>
+                <a href="#contacts">Contact</a>
+              </div>
+              
+              <button class="openbtn" onclick="openNav()">&#9776;</button>
             <!-- <span style="display:flex;justify-content:flex-end">
                 <i class="fa-solid fa-sliders m-3" style="color:orangered;position: fixed;"></i>
             </span> -->
@@ -59,7 +75,7 @@
 
     <main>
         <section class="container aboutMe">
-            <div class="about">
+            <div class="about" id="hello">
 
 
                 <h5 id="intro" align="center">Hello World. I'm Kevin Malomba</h5>
@@ -80,7 +96,7 @@
 
             </div>
 
-            <div class="skills">
+            <div class="skills" id="skills">
                 <div class="row myskills">
                     <h5 align="center">Skills</h5><br>
 
@@ -108,7 +124,7 @@
                     </div>
                 </div>
             </div><br>
-            <div class="projects" align="center">
+            <div class="projects" align="center" id="projects">
                 <h5>Projects</h5>
                 <div class="row">
                     <div class="col-md-3 ">
@@ -393,7 +409,7 @@
 
 
             <div class="experience">
-                <div class="education">
+                <div class="education" id="edu">
                     <h5 align="center">Education</h5>
                     <div class="about row">
 
@@ -430,7 +446,7 @@
 
                     </div><br>
 
-                    <div class="employment">
+                    <div class="employment" id="expe">
                         <h5 align="center">Experience<br></h5>
                         <div class="about">
                             <span
